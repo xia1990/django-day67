@@ -23,4 +23,6 @@ urlpatterns = [
     # url(r'^index/', views.index, name="index"),
     url(r'^index/', views.Index.as_view()),
     url(r'^upload/', views.upload,name="upload"),
+    url(r'^upload2/', views.UploadFile.as_view()),
+    url(r'^data/',views.data,name="data"),
 ]

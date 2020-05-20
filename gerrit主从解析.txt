@@ -1,0 +1,5 @@
+主：master    从：slave
+master通过插件replication将master上的代码同步到slave上，这边可以理解为备份
+研发是从slave服务器下载代码的，
+然后往master服务器上传代码的
+（即读写分离，减轻服务器的负担）
