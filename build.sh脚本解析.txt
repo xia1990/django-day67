@@ -1,0 +1,4 @@
+repo forall -c 'git clean -fd;git reset --hard HEAD;git status'
+
+编译指令：make -C project/mt2523_hdk/apps/iot_sdk_demo/GCC -j48 FEATURE=feature.mk
+OUT:out\mt2523_hdk\iot_sdk_demo
